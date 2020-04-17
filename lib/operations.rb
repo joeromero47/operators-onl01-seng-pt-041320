@@ -1,6 +1,6 @@
 require 'pry'
 def unsafe?(speed)
-  if speed > 60
+  if speed <30 // 
     puts "true"
   elsif speed < 30
     puts "true"
