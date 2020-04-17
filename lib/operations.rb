@@ -1,12 +1,6 @@
-require 'pry'
+
 def unsafe?(speed)
   if speed < 30 || speed > 60
-    puts "true"
-  elsif speed < 30
-    puts "true"
-  else 
-    puts "false"
-binding.pry
 end
 
 
